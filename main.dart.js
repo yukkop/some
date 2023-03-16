@@ -19413,7 +19413,7 @@ Xw(a,b){var s=0,r=A.a2(t.N),q,p
 var $async$Xw=A.a3(function(c,d){if(c===1)return A.a_(d,r)
 while(true)switch(s){case 0:p=A.Y(b).j("ap<1,u>")
 s=3
-return A.Z(A.awz(A.a9Y("http","23.111.122.101/:8083","/sendMessages",null),B.aw.Je(A.ay(["users",A.ab(new A.ap(b,new A.Xx(),p),!0,p.j("aS.E")),"message",a],t.N,t.K),null)),$async$Xw)
+return A.Z(A.awz(A.a9Y("http","23.111.122.101:8083","/sendMessages",null),B.aw.Je(A.ay(["users",A.ab(new A.ap(b,new A.Xx(),p),!0,p.j("aS.E")),"message",a],t.N,t.K),null)),$async$Xw)
 case 3:p=d
 q=A.ON(A.OB(p.e).c.a.h(0,"charset")).cE(0,p.w)
 s=1
@@ -19423,7 +19423,7 @@ return A.a1($async$Xw,r)},
 Xv(a,b){var s=0,r=A.a2(t.N),q,p
 var $async$Xv=A.a3(function(c,d){if(c===1)return A.a_(d,r)
 while(true)switch(s){case 0:s=3
-return A.Z(A.aww(A.a9Y("http","23.111.122.101/:8083","/users/"+a+"/balance/"+b,null)),$async$Xv)
+return A.Z(A.aww(A.a9Y("http","23.111.122.101:8083","/users/"+a+"/balance/"+b,null)),$async$Xv)
 case 3:p=d
 q=A.ON(A.OB(p.e).c.a.h(0,"charset")).cE(0,p.w)
 s=1
@@ -65226,7 +65226,7 @@ A.a4x.prototype={
 pB(){var s=0,r=A.a2(t.KO),q,p,o
 var $async$pB=A.a3(function(a,b){if(a===1)return A.a_(b,r)
 while(true)switch(s){case 0:s=3
-return A.Z(A.aw0(A.a9Y("http","23.111.122.101/:8083","/users",null)),$async$pB)
+return A.Z(A.aw0(A.a9Y("http","23.111.122.101:8083","/users",null)),$async$pB)
 case 3:p=b
 o=p.b
 if(o!==200)throw A.c(A.bB("Status code:"+o+"\nBody:"+p.grr(p)))
@@ -65239,7 +65239,7 @@ jI(a){return this.a69(a)},
 a69(a){var s=0,r=A.a2(t.H),q,p
 var $async$jI=A.a3(function(b,c){if(b===1)return A.a_(c,r)
 while(true)switch(s){case 0:s=2
-return A.Z(A.ale(A.a9Y("http","23.111.122.101/:8083","/users/"+a,null)),$async$jI)
+return A.Z(A.ale(A.a9Y("http","23.111.122.101:8083","/users/"+a,null)),$async$jI)
 case 2:q=c
 p=q.b
 if(p!==200)throw A.c(A.bB("Status code:"+p+"\nBody:"+q.grr(q)))
